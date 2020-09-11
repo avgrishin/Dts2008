@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductVersion>10.0.1600.22</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>Rating.database</Name>
+    <FullPath>Rating.database</FullPath>
+  </Database>
+  <Cubes />
+  <Dimensions />
+  <DataSources>
+    <ProjectItem>
+      <Name>Ucha.ds</Name>
+      <FullPath>Ucha.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews />
+  <MiningModels />
+  <Roles />
+  <Miscellaneous>
+    <ProjectItem>
+      <Name>LoadDealKAgents</Name>
+      <FullPath>LoadDealKAgents</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ КОНС (ВР)_20.09.2019-20.09.2019_283.xml</Name>
+      <FullPath>УРАЛСИБ КОНС (ВР)_20.09.2019-20.09.2019_283.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ЭН ПЕРСП (ИнТс)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ЭН ПЕРСП (ИнТс)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ЭН ПЕРСП (ИнТс)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ЭН ПЕРСП (ИнТс)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ЭН ПЕРСП (ВнБ)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ЭН ПЕРСП (ВнБ)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ЭН ПЕРСП (ВнБ)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ЭН ПЕРСП (ВнБ)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПРОФ (ИнТс)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ПРОФ (ИнТс)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПРОФ (ИнТс)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ПРОФ (ИнТс)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПР РЕС (ВнБ)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ПР РЕС (ВнБ)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПР РЕС (ВнБ)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ПР РЕС (ВнБ)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПРОФ (ВнБ)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ПРОФ (ВнБ)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПРОФ (ВнБ)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ПРОФ (ВнБ)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ КОНС (ВнБ)_20190920.html</Name>
+      <FullPath>УРАЛСИБ КОНС (ВнБ)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ КОНС (ВнБ)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ КОНС (ВнБ)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ИННОВ (ИнТс)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ГЛ ИННОВ (ИнТс)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ИННОВ (ИнТс)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ ИННОВ (ИнТс)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ОБЛ (ИнТс)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ГЛ ОБЛ (ИнТс)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ОБЛ (ИнТс)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ ОБЛ (ИнТс)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ДРАГ МЕТ (ВнБ)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ДРАГ МЕТ (ВнБ)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ДРАГ МЕТ (ВнБ)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ДРАГ МЕТ (ВнБ)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ КОНС (ИнТс)_20190920.html</Name>
+      <FullPath>УРАЛСИБ КОНС (ИнТс)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ КОНС (ИнТс)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ КОНС (ИнТс)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПР РЕС (ИнТс)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ПР РЕС (ИнТс)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПР РЕС (ИнТс)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ПР РЕС (ИнТс)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ОБЛ (ВнБ)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ГЛ ОБЛ (ВнБ)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ОБЛ (ВнБ)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ ОБЛ (ВнБ)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПЕРВЫЙ (ВнБ)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ПЕРВЫЙ (ВнБ)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПЕРВЫЙ (ВнБ)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ПЕРВЫЙ (ВнБ)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПЕРВ (ИнТс)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ПЕРВ (ИнТс)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПЕРВ (ИнТс)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ПЕРВ (ИнТс)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ДРАГ МЕТ (ИнТс)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ДРАГ МЕТ (ИнТс)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ДРАГ МЕТ (ИнТс)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ДРАГ МЕТ (ИнТс)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ИННОВ (ВнБ)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ГЛ ИННОВ (ВнБ)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ИННОВ (ВнБ)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ ИННОВ (ВнБ)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ АКЦ (ИнТс)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ГЛ АКЦ (ИнТс)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ АКЦ (ИнТс)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ АКЦ (ИнТс)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ АКЦ (ВнБ)_20190920.html</Name>
+      <FullPath>УРАЛСИБ ГЛ АКЦ (ВнБ)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ АКЦ (ВнБ)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ АКЦ (ВнБ)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ АКЦИИ Р (ИнТс)_20190920.html</Name>
+      <FullPath>УРАЛСИБ АКЦИИ Р (ИнТс)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ АКЦИИ Р (ИнТс)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ АКЦИИ Р (ИнТс)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ АКЦИИ Р (ВнБ)_20190920.html</Name>
+      <FullPath>УРАЛСИБ АКЦИИ Р (ВнБ)_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ АКЦИИ Р (ВнБ)_20190920.xml</Name>
+      <FullPath>УРАЛСИБ АКЦИИ Р (ВнБ)_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ КОНС (ФР)YU4_20190920.html</Name>
+      <FullPath>УРАЛСИБ КОНС (ФР)YU4_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ КОНС (ФР)YU4_20190920.xml</Name>
+      <FullPath>УРАЛСИБ КОНС (ФР)YU4_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ОБЛ (ФР) YU8_20190920.html</Name>
+      <FullPath>УРАЛСИБ ГЛ ОБЛ (ФР) YU8_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ОБЛ (ФР) YU8_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ ОБЛ (ФР) YU8_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ЭН ПЕРСП (ФР) YU2_20190920.html</Name>
+      <FullPath>УРАЛСИБ ЭН ПЕРСП (ФР) YU2_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ЭН ПЕРСП (ФР) YU2_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ЭН ПЕРСП (ФР) YU2_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПРОФ (ФР) YU3_20190920.html</Name>
+      <FullPath>УРАЛСИБ ПРОФ (ФР) YU3_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПРОФ (ФР) YU3_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ПРОФ (ФР) YU3_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПР РЕС (ФР) YV0_20190920.html</Name>
+      <FullPath>УРАЛСИБ ПР РЕС (ФР) YV0_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПР РЕС (ФР) YV0_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ПР РЕС (ФР) YV0_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПЕРВЫЙ (ФР) YU5_20190920.html</Name>
+      <FullPath>УРАЛСИБ ПЕРВЫЙ (ФР) YU5_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПЕРВЫЙ (ФР) YU5_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ПЕРВЫЙ (ФР) YU5_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ДРАГ МЕТ (ФР) YU7_20190920.html</Name>
+      <FullPath>УРАЛСИБ ДРАГ МЕТ (ФР) YU7_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ДРАГ МЕТ (ФР) YU7_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ДРАГ МЕТ (ФР) YU7_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ИННОВ(ФР)YV1_20190920.html</Name>
+      <FullPath>УРАЛСИБ ГЛ ИННОВ(ФР)YV1_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ИННОВ(ФР)YV1_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ ИННОВ(ФР)YV1_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ АКЦ (ФР) YU9_20190920.html</Name>
+      <FullPath>УРАЛСИБ ГЛ АКЦ (ФР) YU9_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ АКЦ (ФР) YU9_20190920.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ АКЦ (ФР) YU9_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ АКЦИИ Р (ФР) YU6_20190920.html</Name>
+      <FullPath>УРАЛСИБ АКЦИИ Р (ФР) YU6_20190920.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ АКЦИИ Р (ФР) YU6_20190920.xml</Name>
+      <FullPath>УРАЛСИБ АКЦИИ Р (ФР) YU6_20190920.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ДРАГ МЕТ (ВР)_20.09.2019-20.09.2019_283.html</Name>
+      <FullPath>УРАЛСИБ ДРАГ МЕТ (ВР)_20.09.2019-20.09.2019_283.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ДРАГ МЕТ (ВР)_20.09.2019-20.09.2019_283.xml</Name>
+      <FullPath>УРАЛСИБ ДРАГ МЕТ (ВР)_20.09.2019-20.09.2019_283.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ОБЛ (ВР)_20.09.2019-20.09.2019_283.html</Name>
+      <FullPath>УРАЛСИБ ГЛ ОБЛ (ВР)_20.09.2019-20.09.2019_283.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ОБЛ (ВР)_20.09.2019-20.09.2019_283.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ ОБЛ (ВР)_20.09.2019-20.09.2019_283.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПР РЕС (ВР)_20.09.2019-20.09.2019_283.html</Name>
+      <FullPath>УРАЛСИБ ПР РЕС (ВР)_20.09.2019-20.09.2019_283.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПР РЕС (ВР)_20.09.2019-20.09.2019_283.xml</Name>
+      <FullPath>УРАЛСИБ ПР РЕС (ВР)_20.09.2019-20.09.2019_283.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПРОФ (ВР)_20.09.2019-20.09.2019_283.html</Name>
+      <FullPath>УРАЛСИБ ПРОФ (ВР)_20.09.2019-20.09.2019_283.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПРОФ (ВР)_20.09.2019-20.09.2019_283.xml</Name>
+      <FullPath>УРАЛСИБ ПРОФ (ВР)_20.09.2019-20.09.2019_283.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПЕРВЫЙ (ВР)_20.09.2019-20.09.2019_283.html</Name>
+      <FullPath>УРАЛСИБ ПЕРВЫЙ (ВР)_20.09.2019-20.09.2019_283.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ПЕРВЫЙ (ВР)_20.09.2019-20.09.2019_283.xml</Name>
+      <FullPath>УРАЛСИБ ПЕРВЫЙ (ВР)_20.09.2019-20.09.2019_283.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ЭН ПЕРСП (ВР)_20.09.2019-20.09.2019_283.html</Name>
+      <FullPath>УРАЛСИБ ЭН ПЕРСП (ВР)_20.09.2019-20.09.2019_283.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ЭН ПЕРСП (ВР)_20.09.2019-20.09.2019_283.xml</Name>
+      <FullPath>УРАЛСИБ ЭН ПЕРСП (ВР)_20.09.2019-20.09.2019_283.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ АКЦИИ Р (ВР)_20.09.2019-20.09.2019_283.html</Name>
+      <FullPath>УРАЛСИБ АКЦИИ Р (ВР)_20.09.2019-20.09.2019_283.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ АКЦИИ Р (ВР)_20.09.2019-20.09.2019_283.xml</Name>
+      <FullPath>УРАЛСИБ АКЦИИ Р (ВР)_20.09.2019-20.09.2019_283.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ АКЦ (ВР)_20.09.2019-20.09.2019_283.html</Name>
+      <FullPath>УРАЛСИБ ГЛ АКЦ (ВР)_20.09.2019-20.09.2019_283.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ АКЦ (ВР)_20.09.2019-20.09.2019_283.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ АКЦ (ВР)_20.09.2019-20.09.2019_283.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ИННОВ (ВР)_20.09.2019-20.09.2019_283.html</Name>
+      <FullPath>УРАЛСИБ ГЛ ИННОВ (ВР)_20.09.2019-20.09.2019_283.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ ГЛ ИННОВ (ВР)_20.09.2019-20.09.2019_283.xml</Name>
+      <FullPath>УРАЛСИБ ГЛ ИННОВ (ВР)_20.09.2019-20.09.2019_283.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ УК (ВР)_20.09.2019-20.09.2019_283.html</Name>
+      <FullPath>УРАЛСИБ УК (ВР)_20.09.2019-20.09.2019_283.html</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ УК (ВР)_20.09.2019-20.09.2019_283.xml</Name>
+      <FullPath>УРАЛСИБ УК (ВР)_20.09.2019-20.09.2019_283.xml</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УРАЛСИБ КОНС (ВР)_20.09.2019-20.09.2019_283.html</Name>
+      <FullPath>УРАЛСИБ КОНС (ВР)_20.09.2019-20.09.2019_283.html</FullPath>
+    </ProjectItem>
+  </Miscellaneous>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Ucha</Id>
+            <Name>Ucha</Name>
+            <Value xsi:type="xsd:string">Provider=Sybase.ASEOLEDBProvider.2;Data Source=diarange6_ucha;Persist Security Info=True;Initial Catalog=ucha;Password=;User ID=</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Ucha</Id>
+            <Name>Ucha</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+        <DatabaseStorageLocations />
+      </Options>
+    </Configuration>
+  </Configurations>
+  <DTSPackages>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCBondsRatings.dtsx</Name>
+      <FullPath>LoadCBondsRatings.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBankRests.dtsx</Name>
+      <FullPath>LoadBankRests.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>FondStav.dtsx</Name>
+      <FullPath>FondStav.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>FondShares.dtsx</Name>
+      <FullPath>FondShares.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBankTerminalDeals.dtsx</Name>
+      <FullPath>LoadBankTerminalDeals.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBankDeals.dtsx</Name>
+      <FullPath>LoadBankDeals.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ConfigFiles.dtsx</Name>
+      <FullPath>ConfigFiles.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadRisks.dtsx</Name>
+      <FullPath>LoadRisks.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadMicexCouponLastDayMonth.dtsx</Name>
+      <FullPath>LoadMicexCouponLastDayMonth.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBondDefaults.dtsx</Name>
+      <FullPath>LoadBondDefaults.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBankTreaty.dtsx</Name>
+      <FullPath>LoadBankTreaty.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadExIndexRUXBonds.dtsx</Name>
+      <FullPath>LoadExIndexRUXBonds.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCommis.dtsx</Name>
+      <FullPath>LoadCommis.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>TestPackage.dtsx</Name>
+      <FullPath>TestPackage.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadInstRelation.dtsx</Name>
+      <FullPath>LoadInstRelation.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CalcFinRes1.dtsx</Name>
+      <FullPath>CalcFinRes1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadMyDeals.dtsx</Name>
+      <FullPath>LoadMyDeals.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDealKAgents.dtsx</Name>
+      <FullPath>LoadDealKAgents.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadResourceCorr.dtsx</Name>
+      <FullPath>LoadResourceCorr.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Clean_tQUIK_Rate.dtsx</Name>
+      <FullPath>Clean_tQUIK_Rate.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDealTypeBrief.dtsx</Name>
+      <FullPath>LoadDealTypeBrief.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadSecurityMicex.dtsx</Name>
+      <FullPath>LoadSecurityMicex.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadExIndexEMBI.dtsx</Name>
+      <FullPath>LoadExIndexEMBI.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadInstCountry.dtsx</Name>
+      <FullPath>LoadInstCountry.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadInstCode.dtsx</Name>
+      <FullPath>LoadInstCode.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ProcessQUIKDeals.dtsx</Name>
+      <FullPath>ProcessQUIKDeals.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadParticipantMICEX.dtsx</Name>
+      <FullPath>LoadParticipantMICEX.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDealEntAttrValue.dtsx</Name>
+      <FullPath>LoadDealEntAttrValue.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadNikoil_Result_Fee.dtsx</Name>
+      <FullPath>LoadNikoil_Result_Fee.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>up_avgCalcAvgPricePortfolio.dtsx</Name>
+      <FullPath>up_avgCalcAvgPricePortfolio.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>up_CreatePortfolioDealOrderStockExchange.dtsx</Name>
+      <FullPath>up_CreatePortfolioDealOrderStockExchange.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBankSecurity.dtsx</Name>
+      <FullPath>LoadBankSecurity.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBankPN.dtsx</Name>
+      <FullPath>LoadBankPN.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadSecType.dtsx</Name>
+      <FullPath>LoadSecType.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadInstitution.dtsx</Name>
+      <FullPath>LoadInstitution.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadSecurities.dtsx</Name>
+      <FullPath>LoadSecurities.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadRates.dtsx</Name>
+      <FullPath>LoadRates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadClientsAndSecurities.dtsx</Name>
+      <FullPath>LoadClientsAndSecurities.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadExRateMICEXF.dtsx</Name>
+      <FullPath>LoadExRateMICEXF.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadExRateRTSBoard.dtsx</Name>
+      <FullPath>LoadExRateRTSBoard.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadExRateSPVB.dtsx</Name>
+      <FullPath>LoadExRateSPVB.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadExIndexRTS.dtsx</Name>
+      <FullPath>LoadExIndexRTS.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadExIndexMICEX.dtsx</Name>
+      <FullPath>LoadExIndexMICEX.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadWorkDates.dtsx</Name>
+      <FullPath>LoadWorkDates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadExIndexSecurityRTS.dtsx</Name>
+      <FullPath>LoadExIndexSecurityRTS.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadRatesAll.dtsx</Name>
+      <FullPath>LoadRatesAll.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDeals.dtsx</Name>
+      <FullPath>LoadDeals.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadRests.dtsx</Name>
+      <FullPath>LoadRests.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBrokerDeals.dtsx</Name>
+      <FullPath>LoadBrokerDeals.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadRateCME.dtsx</Name>
+      <FullPath>LoadRateCME.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>UnLoadRates.dtsx</Name>
+      <FullPath>UnLoadRates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ListBondsWoISIN.dtsx</Name>
+      <FullPath>ListBondsWoISIN.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCBONDS-Muni.dtsx</Name>
+      <FullPath>LoadCBONDS-Muni.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CalcForeignFondRates.dtsx</Name>
+      <FullPath>CalcForeignFondRates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadExRateRTSForts.dtsx</Name>
+      <FullPath>LoadExRateRTSForts.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RtsFortsList.dtsx</Name>
+      <FullPath>RtsFortsList.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RtsFortsList1.dtsx</Name>
+      <FullPath>RtsFortsList1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>S_Load_Rate_RTS.dtsx</Name>
+      <FullPath>S_Load_Rate_RTS.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCBONDSIndex.dtsx</Name>
+      <FullPath>LoadCBONDSIndex.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadASV.dtsx</Name>
+      <FullPath>LoadASV.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCBonds.dtsx</Name>
+      <FullPath>LoadCBonds.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadEuroClear.dtsx</Name>
+      <FullPath>LoadEuroClear.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PropertyList.dtsx</Name>
+      <FullPath>PropertyList.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Statment_Build_SED.dtsx</Name>
+      <FullPath>Statment_Build_SED.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepSpecDep.dtsx</Name>
+      <FullPath>RepSpecDep.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadOperations.dtsx</Name>
+      <FullPath>LoadOperations.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadOrders.dtsx</Name>
+      <FullPath>LoadOrders.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PersonnelCabinet.dtsx</Name>
+      <FullPath>PersonnelCabinet.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadMICEXFiles.dtsx</Name>
+      <FullPath>LoadMICEXFiles.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDividents.dtsx</Name>
+      <FullPath>LoadDividents.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadExIndexSecurityCBONDS.dtsx</Name>
+      <FullPath>LoadExIndexSecurityCBONDS.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOrders.dtsx</Name>
+      <FullPath>RepOrders.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCoupons.dtsx</Name>
+      <FullPath>LoadCoupons.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadLSE.dtsx</Name>
+      <FullPath>LoadLSE.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOrders1.dtsx</Name>
+      <FullPath>RepOrders1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>InobservanceOfDemand.dtsx</Name>
+      <FullPath>InobservanceOfDemand.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>TransferJobs.dtsx</Name>
+      <FullPath>TransferJobs.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadMICEXIndex.dtsx</Name>
+      <FullPath>LoadMICEXIndex.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>S_LoadSecurityGroup.dtsx</Name>
+      <FullPath>S_LoadSecurityGroup.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ExcelExport.dtsx</Name>
+      <FullPath>ExcelExport.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>BloombergCoupons.dtsx</Name>
+      <FullPath>BloombergCoupons.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBloombergRates.dtsx</Name>
+      <FullPath>LoadBloombergRates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ExportCHBTreaties.dtsx</Name>
+      <FullPath>ExportCHBTreaties.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>s_ExportTradePlatform.dtsx</Name>
+      <FullPath>s_ExportTradePlatform.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCFI.dtsx</Name>
+      <FullPath>LoadCFI.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadNDRCorpEvents.dtsx</Name>
+      <FullPath>LoadNDRCorpEvents.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBloombergRates1.dtsx</Name>
+      <FullPath>LoadBloombergRates1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>S_Load_Rate_MMVB1.dtsx</Name>
+      <FullPath>S_Load_Rate_MMVB1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>S_Load_Rate_MMVB2.dtsx</Name>
+      <FullPath>S_Load_Rate_MMVB2.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>S_Load_Rate_MMVB_G2.dtsx</Name>
+      <FullPath>S_Load_Rate_MMVB_G2.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadPSAURates.dtsx</Name>
+      <FullPath>LoadPSAURates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCQGDeals2Diasoft.dtsx</Name>
+      <FullPath>LoadCQGDeals2Diasoft.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadInflation.dtsx</Name>
+      <FullPath>LoadInflation.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCBONDSIndexList.dtsx</Name>
+      <FullPath>LoadCBONDSIndexList.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCBondsDB.dtsx</Name>
+      <FullPath>LoadCBondsDB.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDeviationCoeffs.dtsx</Name>
+      <FullPath>LoadDeviationCoeffs.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadLiqSecs.dtsx</Name>
+      <FullPath>LoadLiqSecs.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBondRaspil.dtsx</Name>
+      <FullPath>LoadBondRaspil.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>MtsBonus.dtsx</Name>
+      <FullPath>MtsBonus.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepNonStdDeals.dtsx</Name>
+      <FullPath>RepNonStdDeals.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCoupons (1).dtsx</Name>
+      <FullPath>LoadCoupons (1).dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadModelPortfolio.dtsx</Name>
+      <FullPath>LoadModelPortfolio.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDepRates.dtsx</Name>
+      <FullPath>LoadDepRates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCoupons (2).dtsx</Name>
+      <FullPath>LoadCoupons (2).dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadAssureur.dtsx</Name>
+      <FullPath>LoadAssureur.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadOrders1.dtsx</Name>
+      <FullPath>LoadOrders1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOrders3.dtsx</Name>
+      <FullPath>RepOrders3.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadIceVisNum.dtsx</Name>
+      <FullPath>LoadIceVisNum.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CheckTerrList.dtsx</Name>
+      <FullPath>CheckTerrList.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadInvestFunds.dtsx</Name>
+      <FullPath>LoadInvestFunds.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadPIFRateDate.dtsx</Name>
+      <FullPath>LoadPIFRateDate.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOrders2.dtsx</Name>
+      <FullPath>RepOrders2.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadLombard.dtsx</Name>
+      <FullPath>LoadLombard.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadPIFerRests.dtsx</Name>
+      <FullPath>LoadPIFerRests.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Anketa.dtsx</Name>
+      <FullPath>Anketa.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadXETRA.dtsx</Name>
+      <FullPath>LoadXETRA.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadTMX.dtsx</Name>
+      <FullPath>LoadTMX.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOrders8.dtsx</Name>
+      <FullPath>RepOrders8.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBaseSCHA.dtsx</Name>
+      <FullPath>LoadBaseSCHA.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadNYSE.dtsx</Name>
+      <FullPath>LoadNYSE.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCreditPIF.dtsx</Name>
+      <FullPath>LoadCreditPIF.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDisclosure.dtsx</Name>
+      <FullPath>LoadDisclosure.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDiscNRD.dtsx</Name>
+      <FullPath>LoadDiscNRD.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadOrdersA.dtsx</Name>
+      <FullPath>LoadOrdersA.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDisclosureRep.dtsx</Name>
+      <FullPath>LoadDisclosureRep.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>S_Load_Rate_RTSBoard.dtsx</Name>
+      <FullPath>S_Load_Rate_RTSBoard.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOrders9.dtsx</Name>
+      <FullPath>RepOrders9.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepGazfond.dtsx</Name>
+      <FullPath>RepGazfond.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOrders10.dtsx</Name>
+      <FullPath>RepOrders10.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepPIFPay.dtsx</Name>
+      <FullPath>RepPIFPay.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadSiteScha.dtsx</Name>
+      <FullPath>LoadSiteScha.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadSiteData.dtsx</Name>
+      <FullPath>LoadSiteData.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>AnketaSecForm.dtsx</Name>
+      <FullPath>AnketaSecForm.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CmpPIFAcc.dtsx</Name>
+      <FullPath>CmpPIFAcc.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadAnalitics.dtsx</Name>
+      <FullPath>LoadAnalitics.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ImportCoupons.dtsx</Name>
+      <FullPath>ImportCoupons.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadVars.dtsx</Name>
+      <FullPath>LoadVars.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>OffExchange.dtsx</Name>
+      <FullPath>OffExchange.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCbrRate.dtsx</Name>
+      <FullPath>LoadCbrRate.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadOtkritie.dtsx</Name>
+      <FullPath>LoadOtkritie.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ExportRatings.dtsx</Name>
+      <FullPath>ExportRatings.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepRating.dtsx</Name>
+      <FullPath>RepRating.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LkFcsm.dtsx</Name>
+      <FullPath>LkFCsm.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>SetEntAttrBrok.dtsx</Name>
+      <FullPath>SetEntAttrBrok.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepInvDecl.dtsx</Name>
+      <FullPath>RepInvDecl.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepExchPIF.dtsx</Name>
+      <FullPath>RepExchPIF.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Data1C.dtsx</Name>
+      <FullPath>Data1C.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOrders3a.dtsx</Name>
+      <FullPath>RepOrders3a.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadMICEXTrades.dtsx</Name>
+      <FullPath>LoadMICEXTrades.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDepCBRates.dtsx</Name>
+      <FullPath>LoadDepCBRates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadPassports.dtsx</Name>
+      <FullPath>LoadPassports.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadOGRN.dtsx</Name>
+      <FullPath>LoadOGRN.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadSyntRates.dtsx</Name>
+      <FullPath>LoadSyntRates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepNrdCorpEvents.dtsx</Name>
+      <FullPath>RepNrdCorpEvents.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadListing.dtsx</Name>
+      <FullPath>LoadListing.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadMOEXCurPrices.dtsx</Name>
+      <FullPath>LoadMOEXCurPrices.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadListPIF.dtsx</Name>
+      <FullPath>LoadListPIF.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadDepositar.dtsx</Name>
+      <FullPath>LoadDepositar.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Package1.dtsx</Name>
+      <FullPath>Package1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ModelClients.dtsx</Name>
+      <FullPath>ModelClients.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ModelClients2.dtsx</Name>
+      <FullPath>ModelClients2.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepPifMotiv.dtsx</Name>
+      <FullPath>RepPifMotiv.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>SetRateDS4IL.dtsx</Name>
+      <FullPath>SetRateDS4IL.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>VolgaCapital.dtsx</Name>
+      <FullPath>VolgaCapital.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Garant.dtsx</Name>
+      <FullPath>Garant.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>VolgaCapital 1.dtsx</Name>
+      <FullPath>VolgaCapital 1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepMarket.dtsx</Name>
+      <FullPath>RepMarket.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepStrah.dtsx</Name>
+      <FullPath>RepStrah.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CmpPIFAcc2.dtsx</Name>
+      <FullPath>CmpPIFAcc2.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCmeSec.dtsx</Name>
+      <FullPath>LoadCmeSec.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadMoex.dtsx</Name>
+      <FullPath>LoadMoex.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadMoex2.dtsx</Name>
+      <FullPath>LoadMoex2.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>AddOption.dtsx</Name>
+      <FullPath>AddOption.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ContrRating.dtsx</Name>
+      <FullPath>ContrRating.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBFASec.dtsx</Name>
+      <FullPath>LoadBFASec.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CheckBourseList.dtsx</Name>
+      <FullPath>CheckBourseList.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadPIFError.dtsx</Name>
+      <FullPath>LoadPIFError.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadClientTreaty.dtsx</Name>
+      <FullPath>LoadClientTreaty.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadCurv.dtsx</Name>
+      <FullPath>LoadCurv.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadFairPrices.dtsx</Name>
+      <FullPath>LoadFairPrices.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadBloombergRates2.dtsx</Name>
+      <FullPath>LoadBloombergRates2.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepPifPrice.dtsx</Name>
+      <FullPath>RepPifPrice.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOrders11.dtsx</Name>
+      <FullPath>RepOrders11.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadExRateSELT.dtsx</Name>
+      <FullPath>LoadExRateSELT.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadRateMDMG.dtsx</Name>
+      <FullPath>LoadRateMDMG.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadSwift.dtsx</Name>
+      <FullPath>LoadSwift.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadEtfHoldings.dtsx</Name>
+      <FullPath>LoadEtfHoldings.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepPifMotiv2.dtsx</Name>
+      <FullPath>RepPifMotiv2.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>FinResM.dtsx</Name>
+      <FullPath>FinResM.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOrders12.dtsx</Name>
+      <FullPath>RepOrders12.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOrders13.dtsx</Name>
+      <FullPath>RepOrders13.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadNrdPifRates.dtsx</Name>
+      <FullPath>LoadNrdPifRates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadVozmRash.dtsx</Name>
+      <FullPath>LoadVozmRash.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>MoveNSDfiles.dtsx</Name>
+      <FullPath>MoveNSDfiles.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ProcessXml.dtsx</Name>
+      <FullPath>ProcessXml.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadSpbExchange.dtsx</Name>
+      <FullPath>LoadSpbExchange.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepDogDU.dtsx</Name>
+      <FullPath>RepDogDU.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepVvodDS.dtsx</Name>
+      <FullPath>RepVvodDS.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>DogCancelDate.dtsx</Name>
+      <FullPath>DogCancelDate.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ReqChange.dtsx</Name>
+      <FullPath>ReqChange.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepMarket2.dtsx</Name>
+      <FullPath>RepMarket2.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>LoadStPr.dtsx</Name>
+      <FullPath>LoadStPr.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepMarket3.dtsx</Name>
+      <FullPath>RepMarket3.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepOttok.dtsx</Name>
+      <FullPath>RepOttok.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Affil.dtsx</Name>
+      <FullPath>Affil.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>SendRepDUBank.dtsx</Name>
+      <FullPath>SendRepDUBank.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>RepBankDuPifIncome.dtsx</Name>
+      <FullPath>RepBankDuPifIncome.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+  </DTSPackages>
+</Project>

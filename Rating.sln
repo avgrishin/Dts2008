@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "Rating", "Rating.dtproj", "{A19489CF-E023-40B6-A284-E24ABA1ABA3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Development|Default = Development|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A19489CF-E023-40B6-A284-E24ABA1ABA3C}.Debug|Default.ActiveCfg = Development
+		{A19489CF-E023-40B6-A284-E24ABA1ABA3C}.Debug|Default.Build.0 = Development
+		{A19489CF-E023-40B6-A284-E24ABA1ABA3C}.DebugLocal|Default.ActiveCfg = Development
+		{A19489CF-E023-40B6-A284-E24ABA1ABA3C}.DebugLocal|Default.Build.0 = Development
+		{A19489CF-E023-40B6-A284-E24ABA1ABA3C}.Development|Default.ActiveCfg = Development
+		{A19489CF-E023-40B6-A284-E24ABA1ABA3C}.Development|Default.Build.0 = Development
+		{A19489CF-E023-40B6-A284-E24ABA1ABA3C}.Release|Default.ActiveCfg = Development
+		{A19489CF-E023-40B6-A284-E24ABA1ABA3C}.Release|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

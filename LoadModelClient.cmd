@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\DTExec.exe"  /FILE "\"C:\User\vs\Rating\ModelClients2.dtsx\"" /DECRYPT 1 /CHECKPOINTING OFF  /REPORTING EWCDI
