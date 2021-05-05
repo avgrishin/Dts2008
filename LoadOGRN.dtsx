@@ -10,8 +10,8 @@
 <DTS:Property DTS:Name="PackagePriorityClass">0</DTS:Property>
 <DTS:Property DTS:Name="VersionMajor">1</DTS:Property>
 <DTS:Property DTS:Name="VersionMinor">0</DTS:Property>
-<DTS:Property DTS:Name="VersionBuild">68</DTS:Property>
-<DTS:Property DTS:Name="VersionGUID">{2750E7F7-5197-4247-ABD8-492C4D9B6FA1}</DTS:Property>
+<DTS:Property DTS:Name="VersionBuild">69</DTS:Property>
+<DTS:Property DTS:Name="VersionGUID">{F835172B-928B-4565-9487-90C1193870A5}</DTS:Property>
 <DTS:Property DTS:Name="EnableConfig">0</DTS:Property>
 <DTS:Property DTS:Name="CheckpointFileName"></DTS:Property>
 <DTS:Property DTS:Name="SaveCheckpoints">0</DTS:Property>
@@ -23,7 +23,7 @@
 <DTS:Property DTS:Name="DTSID">{97B21AB3-A0D1-4BE6-A7A4-A55C5DCD8741}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName">OLEDB</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
-<DTS:Property DTS:Name="Retain">0</DTS:Property><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="Mgtn/gFJZQ==" IV="vogS7ExKdL8=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>vogS7ExKdL/WjpSvMaUsaOOdcBgBXKs+B58hTP4wXzqqCBpIi0dSrGWhy2JnahrrYphendvA9RpZ5QYOpRGVGAmvG4AuwK/4vvlqdmq+js/hNip7fwMxDt1r9caXfwbV+DfrFJA0SG5wW2U3baICMlh8PK1H2kaQm003Z6WIVRY=</CipherValue></CipherData></EncryptedData>
+<DTS:Property DTS:Name="Retain">0</DTS:Property><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="/aqAQAwuKA==" IV="H4hMrtkjN9s=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>H4hMrtkjN9vpz/hOcmO8pdjND6LBJ95uMeijtwEXKo/hNN36Of/Cl4Bvm990a0fq7fbnRH2rQm8EjvfZqZLb6m/hYXS+4SCGrmZ2GS97ptCtmAu/dWi4VPlo49ahoGCLsYO2K0zHOu08ybDDZY3n3eXQ0ROu3Ibps/Kyx0h4/WU=</CipherValue></CipherData></EncryptedData>
 <DTS:Property DTS:Name="ConnectionString">Data Source=assetsmgr;User ID=ssis_user;Initial Catalog=MiddleOffice;Provider=SQLNCLI10.1;Persist Security Info=True;Application Name=SSIS-LoadOGRN-{97B21AB3-A0D1-4BE6-A7A4-A55C5DCD8741}assetsmgr.MiddleOffice.ssis_user;Auto Translate=False;</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
@@ -31,7 +31,7 @@
 <DTS:Property DTS:Name="DTSID">{E51AF73F-6D79-46E3-8E7B-BE47D4189682}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName">OLEDB</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
-<DTS:Property DTS:Name="Retain">0</DTS:Property><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="us+IB+LMyg==" IV="Tmtxn3bJbck=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>Tmtxn3bJbclGt0rDcZtOucPymd3J4Uwozfz/LvXndDIX+EALnIOhJxGEE43BeL4M1dBNFSsvyKNnW3mhUvbzyUNPjBCp9pV5wthmXLvyQwNWCHHFt752+wgFBQ9J4kd48jJKr2XZFxHisosZTztXLb/S4qL56MJ/hKJEAtbYIac=</CipherValue></CipherData></EncryptedData>
+<DTS:Property DTS:Name="Retain">0</DTS:Property><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="YC5zP2k7UQ==" IV="iN3w0oDEe1I=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>iN3w0oDEe1IiYd6C38dd6TZe7m9puUncznMikafvSu6NAyV2IWH90vDpajpUa96vvxugn+RVLU8HUNYhc2+BM0kIDRop8BECLmid76CVVMsuYNonznb55KpvkSywK5067OQuySWSzlDvHP8WMgFK1rAnSgGDE/hAkUitVCXJ9oI=</CipherValue></CipherData></EncryptedData>
 <DTS:Property DTS:Name="ConnectionString">Data Source=diarange6_ucha;User ID=don_ep;Initial Catalog=ucha;Provider=Sybase.ASEOLEDBProvider.2;Persist Security Info=True;</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">-1</DTS:Property>
@@ -496,7 +496,8 @@ namespace ST_131a73fa71ed4bbbae8ae6cca14feec0.csproj
       {
         try
         {
-          s = wc.DownloadString("http://www.cbr.ru/statistics/rcb/inn_ogrn/");
+          //s = wc.DownloadString("http://www.cbr.ru/statistics/rcb/inn_ogrn/");
+          s = wc.DownloadString("https://www.cbr.ru/registries/rcb/inn_ogrn/");
           cycle = 0;
         }
         catch
@@ -610,57 +611,57 @@ using System.Runtime.CompilerServices;
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem><BinaryItem Name="\bin\release\st_131a73fa71ed4bbbae8ae6cca14feec0.csproj.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAHnAWF8AAAAAAAAAAOAAAiELAQgAABIAAAAIAAAAAAAArjEA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAN5SkmAAAAAAAAAAAOAAAiELAQgAABIAAAAIAAAAAAAAvjEA
 AAAgAAAAQAAAAABAAAAgAAAAAgAABAAAAAAAAAAEAAAAAAAAAACAAAAAAgAAAAAAAAMAQIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAFwxAABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAGQxAABXAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAtBEAAAAgAAAAEgAAAAIA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAxBEAAAAgAAAAEgAAAAIA
 AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAEgEAAAAQAAAAAYAAAAUAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAGAAAAACAAAAGgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAACQ
-MQAAAAAAAEgAAAACAAUAsCIAAKwOAAABAAAAAAAAAPghAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAGgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAACg
+MQAAAAAAAEgAAAACAAUAsCIAALQOAAABAAAAAAAAAPghAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKA0AAAoqEzADAC0AAAABAAARfgEAAAQtIHIBAABw0AIA
-AAIoDgAACm8PAAAKcxAAAAoKBoABAAAEfgEAAAQqGn4CAAAEKh4CgAIAAAQqGzAFAAsBAAACAAAR
-AigTAAAKF28UAAAKcxUAAAoTBBEEFG8WAAAKEQQKHwoLcoEAAHAMKysGcoMAAHBvFwAACgwWC94b
-JgclF1kLFjEMINAHAAAoGAAACisEFgv+Gt4ABy3SCHLZAABwHxAoGQAACg0JbxoAAAo5mgAAAB8K
-CytbBnKeAQBwCW8bAAAKF28cAAAKbx0AAAooHgAACnLIAQBwCW8bAAAKGG8cAAAKbx0AAAooHgAA
-Cm8fAAAKFgveGyYHJRdZCxYxDCDQBwAAKBgAAAorBBYL/hreAActogIoEwAACm8gAAAKct4BAHBv
-IQAACglvGwAAChlvHAAACm8dAAAKbyIAAAoCKBMAAAoWbxQAAAoqAAEcAAAAACkAEDkAGwEAAAEA
-AHUAQLUAGwEAAAEeAigjAAAKKhp+BgAABCoucwgAAAaABgAABCoeAiglAAAKKgC0AAAAzsrvvgEA
+AAIoDgAACm8PAAAKcxAAAAoKBoABAAAEfgEAAAQqGn4CAAAEKh4CgAIAAAQqGn4DAAAEKi5zBgAA
+BoADAAAEKh4CKBMAAAoqABswBQALAQAAAgAAEQIoFQAAChdvFgAACnMXAAAKEwQRBBRvGAAAChEE
+Ch8KC3KBAABwDCsrBnKDAABwbxkAAAoMFgveGyYHJRdZCxYxDCDQBwAAKBoAAAorBBYL/hreAAct
+0ghy2wAAcB8QKBsAAAoNCW8cAAAKOZoAAAAfCgsrWwZyoAEAcAlvHQAAChdvHgAACm8fAAAKKCAA
+AApyygEAcAlvHQAAChhvHgAACm8fAAAKKCAAAApvIQAAChYL3hsmByUXWQsWMQwg0AcAACgaAAAK
+KwQWC/4a3gAHLaICKBUAAApvIgAACnLgAQBwbyMAAAoJbx0AAAoZbx4AAApvHwAACm8kAAAKAigV
+AAAKFm8WAAAKKgABHAAAAAApABA5ABsBAAABAAB1AEC1ABsBAAABHgIoJQAACiq0AAAAzsrvvgEA
 AACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJzaW9u
 PTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4
 OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAAAAAAAAAAAAFBBRFBBRFC0
 AAAAQlNKQgEAAQAAAAAADAAAAHYyLjAuNTA3MjcAAAAABQBsAAAAOAQAACN+AACkBAAAcAYAACNT
-dHJpbmdzAAAAABQLAADwAQAAI1VTAAQNAAAQAAAAI0dVSUQAAAAUDQAAmAEAACNCbG9iAAAAAAAA
+dHJpbmdzAAAAABQLAAD0AQAAI1VTAAgNAAAQAAAAI0dVSUQAAAAYDQAAnAEAACNCbG9iAAAAAAAA
 AAIAAAFXHaIBCQMAAAD6ATMAFgAAAQAAACYAAAAFAAAABgAAAAkAAAABAAAAJQAAAAIAAAAOAAAA
-AgAAAAIAAAADAAAABAAAAAEAAAAFAAAAAQAAAAEAAAAAAAoAAQAAAAAABgDWAM8ACgAlAfwABgBB
-Ac8ADgBbAUYBBgCEAXMBBgC1AaABBgBkAlICBgB7AlICBgCYAlICBgC3AlICBgDQAlICBgDpAlIC
-BgAEA1ICBgAfA1ICBgA4A1ICBgBxA1EDBgCRA1EDBgDCA68DBgDfA88ABgDkA88ABgAIBFICDgA0
-BB4EDgBNBB4EEgBvBGIECgB+BPwADgCyBKcEDgC8BKcEBgDwBN8EDgAcBf0EDgAiBf0EDgAoBf0E
-DgA1Bf0EDgBHBf0EDgBrBf0EBgB9Bc8AFgDXBbcFFgDvBbcFBgACBlEDAAAAAAEAAAAAAAEAAQAA
-ABAAOQBDAAUAAQABAAEAEAB5AIQACQADAAUAAwEAAK8AAAANAAMABwAAARAAvQBDABEABgAHABEA
-lAETABEAwQEXAAYGEAI5AFaAGAI8AFaAIAI8ABEAKAJKAFAgAAAAAIMY0QEbAAEAWCAAAAAAkwjX
-AR8AAQCRIAAAAACTCOsBJAABAJggAAAAAJMI9wEpAAEAoCAAAAAAhgALAhsAAgDUIQAAAACGGNEB
-GwACANwhAAAAAJYIOAJOAAIA7yEAAAAAhhjRARsAAgDjIQAAAACRGB0GHwECAAAAAQBMAjkA0QFY
+AgAAAAIAAAADAAAABAAAAAEAAAAFAAAAAQAAAAEAAAAAAAoAAQAAAAAABgDWAM8ACgDyAN0ADgBS
+ASkBBgBuAc8ABgCEAXMBBgC1AaABBgBkAlICBgB7AlICBgCYAlICBgC3AlICBgDQAlICBgDpAlIC
+BgAEA1ICBgAfA1ICBgA4A1ICBgBxA1EDBgCRA1EDBgDCA68DBgDfA88ABgDkA88ABgAIBFICCgA0
+BB4ECgBNBB4EBgBiBFEDEgCRBIQEDgCgBCkBCgDUBMkECgDeBMkEBgASBQEFCgA+BR8FCgBEBR8F
+CgBKBR8FCgBXBR8FCgBpBR8FCgCNBR8FBgCfBc8AFgD5BdkFFgARBtkFAAAAAAEAAAAAAAEAAQAA
+ABAAOQBDAAUAAQABAAABEAB5AEMACQADAAUAAQAQAIIAjQANAAQACAADAQAAuAAAABEABAAKABEA
+lAETABEAwQEXABEACwI5AAYGNAJHAFaAPAJKAFaARAJKAFAgAAAAAIMY0QEbAAEAWCAAAAAAkwjX
+AR8AAQCRIAAAAACTCOsBJAABAJggAAAAAJMI9wEpAAEAoCAAAAAAlggbAj0AAgCzIAAAAACGGNEB
+GwACAKcgAAAAAJEYfQSJAAIAvCAAAAAAhgAvAhsAAgDwIQAAAACGGNEBGwACAAAAAQBMAjkA0QFY
 AEEA0QFYAEkA0QFYAFEA0QFYAFkA0QFYAGEA0QFYAGkA0QFYAHEA0QFYAHkA0QFYAIEA0QFdAIkA
-0QEbAJEA0QEbAAkA0QEbAJkA9gNiAJkAEQRpACkA0QFuALEA0QF6AMEA0QFYABEAkATDAMkAmARd
-ANEA0QEbANEAxgTIANEA0ATOAOEA9wTTAOkAIgXYAAEBOwXhAPEAVwXlAAkBYgXrABEBcwXyABkB
-hAX2ANEAiwX8AMkA4QUCASEBYgUIASkB+AUPAREA0QEbADEB0QEbACEA0QEbAAgAEABAAAgAFABF
-ACkAiwCAAC4AEwBTAS4AGwBTAS4AIwBTAS4AUwBwAS4ACwAjAS4AKwAjAS4AOwBTAS4AWwB5AS4A
-MwBZAUMAYwBFAEkAiwCAAGMAkwCJAMEAIwFFAHUAFAECAAEABQADAAAAhAEvAAAAAwI0AAAARAJT
-AAIAAgADAAIAAwAFAAEABAAFAAIABwAHAASAAAABAAAAhR3UZwAAAAAAAIQAAAACAAAAAAAAAAAA
-AAABAMYAAAAAAAoAAAAAAAAAAAAAAAoA3QAAAAAAAgAAAAAAAAAAAAAAAQDPAAAAAAADAAUAAAAA
-AAAAAAABAGIEAAAAAAoAAAAAAAAAAAAAAAoAmAUAAAAAAAAAAAEAAAAkBgAABAADAAAAADxNb2R1
+0QEbAJEA0QEbAAkA0QEbAJkA9gNiAJkAEQRpACkA0QFuALEA0QF6AMEA0QEbABEA0QEbAMkA0QFY
+ABkAsgTHANEAugRdANkA0QEbANkA6ATMANkA8gTSAOkAGQXXAPEARAXcAAkBXQXmAPkAeQXqABEB
+hAXwABkBlQX3ACEBpgX7ANkArQUBAdEAAwYHASkBhAUNATEBGgYUARkA0QEbAAgAFABOAAgAGABT
+ACkAiwCAAC4AEwBUAS4AGwBUAS4AIwBUAS4AUwBxAS4ACwAkAS4AKwAkAS4AOwBUAS4AWwB6AS4A
+MwBaAUMAYwBTAEkAiwCAAGEAkwBTAIMAowCNAHUAGQECAAEAAwADAAAAhAEvAAAAAwI0AAAAJwJC
+AAIAAgADAAIAAwAFAAEABAAFAAIABQAHAASAAAABAAAAcx6HTgAAAAAAAI0AAAACAAAAAAAAAAAA
+AAABAMYAAAAAAAIAAAAAAAAAAAAAAAEAzwAAAAAACgAAAAAAAAAAAAAACgAKAQAAAAADAAUAAAAA
+AAAAAAABAIQEAAAAAAoAAAAAAAAAAAAAAAoAugUAAAAAAAAAAAEAAAAkBgAABQAEAAAAADxNb2R1
 bGU+AFNUXzEzMWE3M2ZhNzFlZDRiYmJhZThhZTZjY2ExNGZlZWMwLmNzcHJvai5kbGwAUmVzb3Vy
 Y2VzAFNUXzEzMWE3M2ZhNzFlZDRiYmJhZThhZTZjY2ExNGZlZWMwLmNzcHJvai5Qcm9wZXJ0aWVz
-AFNjcmlwdE1haW4AU1RfMTMxYTczZmE3MWVkNGJiYmFlOGFlNmNjYTE0ZmVlYzAuY3Nwcm9qAFNj
-cmlwdFJlc3VsdHMAU2V0dGluZ3MAbXNjb3JsaWIAU3lzdGVtAE9iamVjdABNaWNyb3NvZnQuU3Fs
-U2VydmVyLlNjcmlwdFRhc2sATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuVGFza3MuU2NyaXB0VGFz
-awBWU1RBUlRTY3JpcHRPYmplY3RNb2RlbEJhc2UARW51bQBTeXN0ZW0uQ29uZmlndXJhdGlvbgBB
-cHBsaWNhdGlvblNldHRpbmdzQmFzZQBTeXN0ZW0uUmVzb3VyY2VzAFJlc291cmNlTWFuYWdlcgBy
+AFNldHRpbmdzAFNjcmlwdE1haW4AU1RfMTMxYTczZmE3MWVkNGJiYmFlOGFlNmNjYTE0ZmVlYzAu
+Y3Nwcm9qAFNjcmlwdFJlc3VsdHMAbXNjb3JsaWIAU3lzdGVtAE9iamVjdABTeXN0ZW0uQ29uZmln
+dXJhdGlvbgBBcHBsaWNhdGlvblNldHRpbmdzQmFzZQBNaWNyb3NvZnQuU3FsU2VydmVyLlNjcmlw
+dFRhc2sATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuVGFza3MuU2NyaXB0VGFzawBWU1RBUlRTY3Jp
+cHRPYmplY3RNb2RlbEJhc2UARW51bQBTeXN0ZW0uUmVzb3VyY2VzAFJlc291cmNlTWFuYWdlcgBy
 ZXNvdXJjZU1hbgBTeXN0ZW0uR2xvYmFsaXphdGlvbgBDdWx0dXJlSW5mbwByZXNvdXJjZUN1bHR1
 cmUALmN0b3IAZ2V0X1Jlc291cmNlTWFuYWdlcgBnZXRfQ3VsdHVyZQBzZXRfQ3VsdHVyZQBDdWx0
-dXJlAE1haW4AdmFsdWVfXwBTdWNjZXNzAEZhaWx1cmUAZGVmYXVsdEluc3RhbmNlAGdldF9EZWZh
-dWx0AERlZmF1bHQAdmFsdWUAU3lzdGVtLlJlZmxlY3Rpb24AQXNzZW1ibHlUaXRsZUF0dHJpYnV0
+dXJlAGRlZmF1bHRJbnN0YW5jZQBnZXRfRGVmYXVsdABEZWZhdWx0AE1haW4AdmFsdWVfXwBTdWNj
+ZXNzAEZhaWx1cmUAdmFsdWUAU3lzdGVtLlJlZmxlY3Rpb24AQXNzZW1ibHlUaXRsZUF0dHJpYnV0
 ZQBBc3NlbWJseURlc2NyaXB0aW9uQXR0cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlvbkF0dHJp
 YnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0QXR0cmlidXRlAEFz
 c2VtYmx5Q29weXJpZ2h0QXR0cmlidXRlAEFzc2VtYmx5VHJhZGVtYXJrQXR0cmlidXRlAEFzc2Vt
@@ -669,44 +670,44 @@ bWUuQ29tcGlsZXJTZXJ2aWNlcwBDb21waWxhdGlvblJlbGF4YXRpb25zQXR0cmlidXRlAFJ1bnRp
 bWVDb21wYXRpYmlsaXR5QXR0cmlidXRlAFN5c3RlbS5EaWFnbm9zdGljcwBEZWJ1Z2dlck5vblVz
 ZXJDb2RlQXR0cmlidXRlAFR5cGUAUnVudGltZVR5cGVIYW5kbGUAR2V0VHlwZUZyb21IYW5kbGUA
 QXNzZW1ibHkAZ2V0X0Fzc2VtYmx5AFN5c3RlbS5Db21wb25lbnRNb2RlbABFZGl0b3JCcm93c2Fi
-bGVBdHRyaWJ1dGUARWRpdG9yQnJvd3NhYmxlU3RhdGUAU3lzdGVtLkFkZEluAEFkZEluQXR0cmli
-dXRlAFNjcmlwdE9iamVjdE1vZGVsAGdldF9EdHMAc2V0X1Rhc2tSZXN1bHQAU3lzdGVtLk5ldABX
-ZWJDbGllbnQASVdlYlByb3h5AHNldF9Qcm94eQBEb3dubG9hZFN0cmluZwBTeXN0ZW0uVGhyZWFk
-aW5nAFRocmVhZABTbGVlcABTeXN0ZW0uVGV4dC5SZWd1bGFyRXhwcmVzc2lvbnMAUmVnZXgATWF0
-Y2gAUmVnZXhPcHRpb25zAEdyb3VwAGdldF9TdWNjZXNzAEdyb3VwQ29sbGVjdGlvbgBnZXRfR3Jv
-dXBzAGdldF9JdGVtAENhcHR1cmUAZ2V0X1ZhbHVlAFN0cmluZwBGb3JtYXQARG93bmxvYWRGaWxl
-AE1pY3Jvc29mdC5TcWxTZXJ2ZXIuTWFuYWdlZERUUwBNaWNyb3NvZnQuU3FsU2VydmVyLkR0cy5S
-dW50aW1lAFZhcmlhYmxlcwBnZXRfVmFyaWFibGVzAFZhcmlhYmxlAHNldF9WYWx1ZQBDb21waWxl
-ckdlbmVyYXRlZEF0dHJpYnV0ZQAuY2N0b3IAU1RfMTMxYTczZmE3MWVkNGJiYmFlOGFlNmNjYTE0
+bGVBdHRyaWJ1dGUARWRpdG9yQnJvd3NhYmxlU3RhdGUAQ29tcGlsZXJHZW5lcmF0ZWRBdHRyaWJ1
+dGUALmNjdG9yAFN5c3RlbS5BZGRJbgBBZGRJbkF0dHJpYnV0ZQBTY3JpcHRPYmplY3RNb2RlbABn
+ZXRfRHRzAHNldF9UYXNrUmVzdWx0AFN5c3RlbS5OZXQAV2ViQ2xpZW50AElXZWJQcm94eQBzZXRf
+UHJveHkARG93bmxvYWRTdHJpbmcAU3lzdGVtLlRocmVhZGluZwBUaHJlYWQAU2xlZXAAU3lzdGVt
+LlRleHQuUmVndWxhckV4cHJlc3Npb25zAFJlZ2V4AE1hdGNoAFJlZ2V4T3B0aW9ucwBHcm91cABn
+ZXRfU3VjY2VzcwBHcm91cENvbGxlY3Rpb24AZ2V0X0dyb3VwcwBnZXRfSXRlbQBDYXB0dXJlAGdl
+dF9WYWx1ZQBTdHJpbmcARm9ybWF0AERvd25sb2FkRmlsZQBNaWNyb3NvZnQuU3FsU2VydmVyLk1h
+bmFnZWREVFMATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuUnVudGltZQBWYXJpYWJsZXMAZ2V0X1Zh
+cmlhYmxlcwBWYXJpYWJsZQBzZXRfVmFsdWUAU1RfMTMxYTczZmE3MWVkNGJiYmFlOGFlNmNjYTE0
 ZmVlYzAuY3Nwcm9qLlByb3BlcnRpZXMuUmVzb3VyY2VzLnJlc291cmNlcwAAAAB/UwBUAF8AMQAz
 ADEAYQA3ADMAZgBhADcAMQBlAGQANABiAGIAYgBhAGUAOABhAGUANgBjAGMAYQAxADQAZgBlAGUA
 YwAwAC4AYwBzAHAAcgBvAGoALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBl
-AHMAAAEAVWgAdAB0AHAAOgAvAC8AdwB3AHcALgBjAGIAcgAuAHIAdQAvAHMAdABhAHQAaQBzAHQA
-aQBjAHMALwByAGMAYgAvAGkAbgBuAF8AbwBnAHIAbgAvAACAwzwAYQAgAGMAbABhAHMAcwA9ACIA
-dgBlAHIAcwBpAG8AbgBzAF8AaQB0AGUAbQAiACAAaAByAGUAZgA9ACIAKAAvAEMAbwBsAGwAZQBj
-AHQAaQBvAG4ALwBDAG8AbABsAGUAYwB0AGkAbwBuAC8ARgBpAGwAZQAvAC4AKwA/AC8AKAAoAGwA
-aQBzAHQAXwBJAE4ATgBfAE8ARwBSAE4AXwBvAHIAZwBfAFwAZAB7ADgAfQApAC4AcgBhAHIAKQAp
-ACIAACloAHQAdABwADoALwAvAHcAdwB3AC4AYwBiAHIALgByAHUAewAwAH0AABVjADoAXAB0AG0A
-cABcAHsAMAB9AAARRgBpAGwAZQBOAGEAbQBlAAC1vridywjDQ5A88WVN+h7pAAi3elxWGTTgiQiJ
-hF3NgIDMkQMGEhUDBhIZAyAAAQQAABIVBAAAEhkFAAEBEhkECAASFQQIABIZAgYIAwYREAQAAAAA
-BAEAAAADBhIUBAAAEhQECAASFAQgAQEOBCABAQgGAAESTRFRBCAAElUGIAIBDhJVBAcBEhUFIAEB
-EV0IAQACAAAAAAA5AQAKU2NyaXB0TWFpbgMAVA4HVmVyc2lvbgMxLjBUDglQdWJsaXNoZXIAVA4L
-RGVzY3JpcHRpb24ABCAAEmUFIAEBEm0EIAEODgQAAQEICAADEnkODhF9AyAAAgUgABKAhQYgARKA
-gQgDIAAOBQACDg4cBSACAQ4OBSAAEoCRBiABEoCVHAQgAQEcCgcFEmkIDhJ5EmkDAAABLwEAKlNU
-XzEzMWE3M2ZhNzFlZDRiYmJhZThhZTZjY2ExNGZlZWMwLmNzcHJvagAABQEAAAAAFgEAEUNvcHly
-aWdodCBAICAyMDE2AAAIAQAIAAAAAAAeAQABAFQCFldyYXBOb25FeGNlcHRpb25UaHJvd3MBhDEA
-AAAAAAAAAAAAnjEAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAxAAAAAAAAAAAAAAAAX0NvckRs
-bE1haW4AbXNjb3JlZS5kbGwAAAAAAP8lACBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AHMAAAEAV2gAdAB0AHAAcwA6AC8ALwB3AHcAdwAuAGMAYgByAC4AcgB1AC8AcgBlAGcAaQBzAHQA
+cgBpAGUAcwAvAHIAYwBiAC8AaQBuAG4AXwBvAGcAcgBuAC8AAIDDPABhACAAYwBsAGEAcwBzAD0A
+IgB2AGUAcgBzAGkAbwBuAHMAXwBpAHQAZQBtACIAIABoAHIAZQBmAD0AIgAoAC8AQwBvAGwAbABl
+AGMAdABpAG8AbgAvAEMAbwBsAGwAZQBjAHQAaQBvAG4ALwBGAGkAbABlAC8ALgArAD8ALwAoACgA
+bABpAHMAdABfAEkATgBOAF8ATwBHAFIATgBfAG8AcgBnAF8AXABkAHsAOAB9ACkALgByAGEAcgAp
+ACkAIgAAKWgAdAB0AHAAOgAvAC8AdwB3AHcALgBjAGIAcgAuAHIAdQB7ADAAfQAAFWMAOgBcAHQA
+bQBwAFwAewAwAH0AABFGAGkAbABlAE4AYQBtAGUAAAAAUUyOyqjAUEa9FnSeuKJNuQAIt3pcVhk0
+4IkIiYRdzYCAzJEDBhIVAwYSGQMgAAEEAAASFQQAABIZBQABARIZBAgAEhUECAASGQMGEgwEAAAS
+DAQIABIMAgYIAwYRFAQAAAAABAEAAAAEIAEBDgQgAQEIBgABEk0RUQQgABJVBiACAQ4SVQQHARIV
+BSABARFdCAEAAgAAAAAAAwAAATkBAApTY3JpcHRNYWluAwBUDgdWZXJzaW9uAzEuMFQOCVB1Ymxp
+c2hlcgBUDgtEZXNjcmlwdGlvbgAEIAASaQUgAQEScQQgAQ4OBAABAQgJAAMSfQ4OEYCBAyAAAgUg
+ABKAiQYgARKAhQgDIAAOBQACDg4cBSACAQ4OBSAAEoCVBiABEoCZHAQgAQEcCgcFEm0IDhJ9Em0v
+AQAqU1RfMTMxYTczZmE3MWVkNGJiYmFlOGFlNmNjYTE0ZmVlYzAuY3Nwcm9qAAAFAQAAAAAWAQAR
+Q29weXJpZ2h0IEAgIDIwMTYAAAgBAAgAAAAAAB4BAAEAVAIWV3JhcE5vbkV4Y2VwdGlvblRocm93
+cwEAAACMMQAAAAAAAAAAAACuMQAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoDEAAAAAAAAAAAAA
+AAAAAAAAAAAAAF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgQAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAEAEAAAABgAAIAAAAAAAAAAAAAAAAAAAAEAAQAAADAAAIAAAAAAAAAAAAAAAAAAAAEAAAAA
 AEgAAABYQAAA8AMAAAAAAAAAAAAA8AM0AAAAVgBTAF8AVgBFAFIAUwBJAE8ATgBfAEkATgBGAE8A
-AAAAAL0E7/4AAAEAAAABANRnhR0AAAEA1GeFHT8AAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAABE
+AAAAAL0E7/4AAAEAAAABAIdOcx4AAAEAh05zHj8AAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAABE
 AAAAAQBWAGEAcgBGAGkAbABlAEkAbgBmAG8AAAAAACQABAAAAFQAcgBhAG4AcwBsAGEAdABpAG8A
 bgAAAAAAAACwBFADAAABAFMAdAByAGkAbgBnAEYAaQBsAGUASQBuAGYAbwAAACwDAAABADAAMAAw
 ADAAMAA0AGIAMAAAAIAAKwABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAAAABTAFQA
 XwAxADMAMQBhADcAMwBmAGEANwAxAGUAZAA0AGIAYgBiAGEAZQA4AGEAZQA2AGMAYwBhADEANABm
 AGUAZQBjADAALgBjAHMAcAByAG8AagAAAAAAQAAPAAEARgBpAGwAZQBWAGUAcgBzAGkAbwBuAAAA
-AAAxAC4AMAAuADcANQA1ADcALgAyADYANQA4ADAAAAAAAIAALwABAEkAbgB0AGUAcgBuAGEAbABO
+AAAxAC4AMAAuADcANwA5ADUALgAyADAAMQAwADMAAAAAAIAALwABAEkAbgB0AGUAcgBuAGEAbABO
 AGEAbQBlAAAAUwBUAF8AMQAzADEAYQA3ADMAZgBhADcAMQBlAGQANABiAGIAYgBhAGUAOABhAGUA
 NgBjAGMAYQAxADQAZgBlAGUAYwAwAC4AYwBzAHAAcgBvAGoALgBkAGwAbAAAAAAASAASAAEATABl
 AGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAAQwBvAHAAeQByAGkAZwBoAHQAIABAACAAIAAyADAA
@@ -715,8 +716,8 @@ AGEANwAzAGYAYQA3ADEAZQBkADQAYgBiAGIAYQBlADgAYQBlADYAYwBjAGEAMQA0AGYAZQBlAGMA
 MAAuAGMAcwBwAHIAbwBqAC4AZABsAGwAAAAAAHgAKwABAFAAcgBvAGQAdQBjAHQATgBhAG0AZQAA
 AAAAUwBUAF8AMQAzADEAYQA3ADMAZgBhADcAMQBlAGQANABiAGIAYgBhAGUAOABhAGUANgBjAGMA
 YQAxADQAZgBlAGUAYwAwAC4AYwBzAHAAcgBvAGoAAAAAAEQADwABAFAAcgBvAGQAdQBjAHQAVgBl
-AHIAcwBpAG8AbgAAADEALgAwAC4ANwA1ADUANwAuADIANgA1ADgAMAAAAAAASAAPAAEAQQBzAHMA
-ZQBtAGIAbAB5ACAAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4ANwA1ADUANwAuADIANgA1ADgAMAAA
+AHIAcwBpAG8AbgAAADEALgAwAC4ANwA3ADkANQAuADIAMAAxADAAMwAAAAAASAAPAAEAQQBzAHMA
+ZQBtAGIAbAB5ACAAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4ANwA3ADkANQAuADIAMAAxADAAMwAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -724,7 +725,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAADAAAALAxAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAADAAAAMAxAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -1631,36 +1632,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem></Scrip
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{0FAA7640-5679-4BDC-9443-DA2EF6F7F9BE}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{293D03BD-B1A3-4E4A-9473-946AEA880E85}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{6AAFCB9A-8120-43B8-ACFD-4F385BCAA951}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{1929C594-393F-4DFA-BAAA-C846B4FFA3FF}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{2E4AAD47-D81E-4012-A27E-93D46F21F034}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{577FA62A-C78A-45A8-8A21-D31FE692420B}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
-<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;DtsEventHandler xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsEventHandlerDiagram&gt;&lt;dwd:BoundingLeft&gt;1000&lt;/dwd:BoundingLeft&gt;&lt;dwd:BoundingTop&gt;1000&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;DtsEventHandler xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsEventHandlerDiagram&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
   &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="0" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="43048" y="18759" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
     &lt;/font&gt;
-    &lt;mouseicon&gt;
-      &lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
+    &lt;mouseicon&gt;&lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
     &lt;/mouseicon&gt;
   &lt;/diagram&gt;
-  &lt;layoutmanager&gt;
-    &lt;ddsxmlobj /&gt;
+  &lt;layoutmanager&gt;&lt;ddsxmlobj /&gt;
   &lt;/layoutmanager&gt;
-  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Send Mail Task" left="1000" top="1000" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
-    &lt;control&gt;
-      &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Send Mail Task" left="1000" top="1000" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;&lt;control&gt;&lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
     &lt;/control&gt;
-    &lt;layoutobject&gt;
-      &lt;ddsxmlobj&gt;
-        &lt;property name="LogicalObject" value="{f843130d-da7b-4dc7-9183-9bde3a510591}" vartype="8" /&gt;
+    &lt;layoutobject&gt;&lt;ddsxmlobj&gt;&lt;property name="LogicalObject" value="{f843130d-da7b-4dc7-9183-9bde3a510591}" vartype="8" /&gt;
         &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
       &lt;/ddsxmlobj&gt;
     &lt;/layoutobject&gt;
@@ -1669,14 +1664,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem></Scrip
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsEventHandlerDiagram&gt;&lt;/DtsEventHandler&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{2BF8B5F2-46CF-4ED4-8A96-59F472F7C1C0}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{55FF3922-DCB5-4B81-A943-B7250111CDED}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{22FC2714-E436-4BA1-A263-0A9882C812EB}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{331E2FBE-E161-4E27-B393-3542AF169B3C}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{D3C33F99-3088-49B3-9EBB-9F4DE10613C4}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{978D3762-ABC8-4812-8E78-22FD47CF6F4F}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -1883,14 +1878,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem></Scrip
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-5733&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;-3000&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{33FA6942-DD1F-46EB-A7CC-E88F1C0C22A1}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{FA841FF2-D539-4CB2-8B59-213350621C08}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{C8583B1A-1BA2-4889-A2D3-9CE4F46796D1}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{3A7F0BD6-957B-420D-BB34-ECD6E5C0E2F2}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{2AF372B5-6A19-4CDC-A7C0-9377AD14A8BA}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F2720B9C-4389-47BE-9158-C71C9C51386A}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -1956,31 +1951,31 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem></Scrip
       &lt;point x="4034" y="8189" /&gt;
     &lt;/connector&gt;
   &lt;/ddscontrol&gt;
-&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;65	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;65	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;65	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;65	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{4A569B83-A866-4D9D-96C9-0DFD5865241C}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{C939A83B-CA05-4EEF-A2F0-DE8FD9CC29DB}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{8F7AECAB-14EB-4E37-A57F-F0C84F1EA221}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;Excel Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Derived Column Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{4A569B83-A866-4D9D-96C9-0DFD5865241C}-88</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{467676FC-1C3A-47B9-BACC-8E3321D58B87}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{A6D790A9-6505-4A10-A235-CD18E15C748F}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;Derived Column Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;OLE DB Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{4A569B83-A866-4D9D-96C9-0DFD5865241C}-96</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{7B3B3EC2-90C7-4A1D-8D28-F37A098BBA86}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F36F3D7F-E98A-4FCD-8FF1-8A85D57359C2}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{BBD1CAA8-CF7D-40AA-8494-A175B6EBBB9E}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{8033A49F-9927-48B4-955D-E54718712899}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{CB8AB262-51A2-4E06-8E8F-3691634E5FA0}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -2187,6 +2182,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem></Scrip
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-5733&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;-3000&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">package-diagram</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{FC8E7618-9DD5-456F-A110-83DF1DF59C3D}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{CE39524E-9088-4B37-85B1-CA1F8B809B70}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable></DTS:Executable>
